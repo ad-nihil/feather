@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* ====================================== */
+/* HEADER SECTION */
+/* ====================================== */
+
+header{
+    width: 100%;
+    background-color:  #FBF8F5;
+    padding: 33px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.first_nav{
+    display: flex;
+    justify-content: space-between;
+    width: 381px;
+}
+.first_nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+.first_image{
+    display: flex;
+}
+.second_nav{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.second_nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+.second_image{
+    margin-right: 42px;
+    margin-left: 20px;
+}
+main{
+    width: 100%;
+}
+
+
+/* ====================================== */
+/* FIRST SECTION */
+/* ====================================== */
+
+
+.first_section{
+    background-color: #FBF8F5;
+    display: flex;
+}
+.posForTextes1{
+    padding-left: 86px;
+    margin-top: 126px;
+    padding-right: 30px;
+}
+.zoma{
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 18px;
+}
+.zoma1{
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 46px;
+}
+.butt{
+    background-color:  #E9672B;
+    height: 60px;
+    width: 154px;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.posForImage1{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 19px; */
+}
+
+
+/* ====================================== */
+/* SECOND SECTION */
+/* ====================================== */
+
+.second_section{
+    background-color: #FBF8F5;
+}
+.posForTextes2{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size:48px ;
+    padding-top: 36px;
+}
+
+/* ====================================== */
+/* CONTAINER SECTION */
+/* ====================================== */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 70px;
+}
+.first_border{
+    border: solid;
+    border-color: #E9672B;
+    border-radius: 4px;
+}
+.second_border{
+    border: solid;
+    border-color: #225DCA;
+}
+.third_border{
+    border: solid;
+    border-color: #242947;
+}
+.forth_border{
+    border: solid;
+    border-color: #DE4333;
+}
+.container p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* ====================================== */
+/* THIRD SECTION */
+/* ====================================== */
+
+.third_section{
+    background-color: #FFFFFF;
+}
+.posForTextes3{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 131px;
+}
+.zoma2{
+    font-weight: 400;
+    font-size: 36px;
+}
+.zoma3{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 94px;
+}
+
+
+/* ====================================== */
+/* FORTH SECTION */
+/* ====================================== */
+
+.forth_section{
+    background-color: #FFFFFF;
+    display: flex;
+    padding-bottom: 64px;
+}
+.posForTextes4{
+    padding-left: 85px;
+    margin-top: 111px;
+}
+.zoma4{
+    font-weight: 400;
+    font-size: 36px;
+}
+.zoma5{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+}
+.zoma6{
+    text-decoration: none;
+    color: #E9672B;
+    font-weight: 400;
+    font-size: 18px;
+}
+.posForImage2{
+    margin-left: 177px;
+}
+
+/* ====================================== */
+/* FIFTH SECTION */
+/* ====================================== */
+
+.fifth_section{
+    display: flex;
+    background-color: white;
+}
+.posForTextes5{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 131px
+}
+.zoma7{
+    font-size: 36px;
+    font-weight: 400;
+}
+.zoma8{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.zoma9{
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.zoma10{
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E9672B;
+    text-decoration: none;
+}
+
+/* ====================================== */
+/* SIXTH SECTION */
+/* ====================================== */
+
+.sixt_section{
+    background-color: #FFFFFF;
+    display: flex;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    
+}
+.posForTextes6{
+    padding-left: 85px;
+    margin-top: 111px;
+}
+.zoma11{
+    font-weight: 400;
+    font-size: 36px;
+}
+.zoma12{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+}
+.zoma13{
+    text-decoration: none;
+    color: #E9672B;
+    font-weight: 400;
+    font-size: 18px;
+}
+.posForImage3{
+    padding-left: 141px;
+}
+
+/* ====================================== */
+/* SEVENTH SECTION */
+/* ====================================== */
+
+.seventh_section{
+
+    display: flex;
+    background-color: white;
+    padding-bottom: 223px;
+}
+.posForTextes7{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 131px
+}
+.zoma14{
+    font-size: 36px;
+    font-weight: 400;
+}
+.zoma15{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.zoma16{
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E9672B;
+    text-decoration: none;
+}
+
+/* ====================================== */
+/* EIGHTTH SECTION */
+/* ====================================== */
+
+.eightth_section{
+    background-color: #FBF8F5;
+}
+.posForTextes8{
+    display: flex;
+    font-weight: 400;
+    font-size: 26px;
+    justify-content: center;
+    padding-top: 112px;
+}
+
+/* ====================================== */
+/* SECOND CONTAINER SECTION */
+/* ====================================== */
+
+.second_container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 57px;
+    column-gap: 10px;
+    padding-bottom: 55px;
+
+
+}
+.furniture{
+    width: 233px;
+    height: 430px;
+    background-color:white;
+}
+.pad{
+    margin: 40px 32px 31px 32px;
+}
+.furniture p{
+    color:black;
+    
+}
+
+/* ====================================== */
+/* NINEGHT SECTION */
+/* ====================================== */
+
+.nineght_section{
+    background-color: #FBF8F5;
+}
+.posForTextes9{
+    display: flex;
+    justify-content: center;
+    color:#E9672B;
+    padding-bottom: 144px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.third_container{
+    display: flex;
+    padding-bottom: 143px;
+}
+.pos{
+    display: flex;
+}
+.orange{
+    height: 343px;
+    width: 448px;
+    background-color: #E9672B;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.posForTextes10{
+    margin-top: 27px;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+.but2{
+    background-color: white;
+    width: 272px;
+    height: 60px;
+    border-radius: 88px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* ====================================== */
+/* TENTH SECTION */
+/* ====================================== */
+
+.tenth_secton{
+    background-color: #FBF8F5;
+    
+}
+.posForTextes11{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 57px;
+    font-size: 38px;
+    font-weight: 400;
+}
+.forth_container{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 96px; */
+    column-gap: 30px;
+    padding-bottom: 176px;
+}
+.star1{
+    position: absolute;
+    left: 70px;
+    top: 5570px;
+}
+.star2{
+    position: absolute;
+    left: 90px;
+    top: 5570px;
+}
+.star3{
+    position: absolute;
+    left: 110px;
+    top: 5570px;
+}
+.star4{
+    position: absolute;
+    left: 130px;
+    top: 5570px;
+}
+.star5{
+    position: absolute;
+    left: 150px;
+    top: 5570px;
+}
+.understar1{
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 70px;
+    top: 5630px;
+}
+.understar2{
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    left: 70px;
+    top: 5710px;
+}
+.star6{
+    position: absolute;
+    left: 500px;
+    top: 5570px;
+        
+}
+.star7{
+    position: absolute;
+    left: 520px;
+    top: 5570px;
+        
+}
+.star8{
+    position: absolute;
+    left: 540px;
+    top: 5570px;
+        
+}
+.star9{
+    position: absolute;
+    left: 560px;
+    top: 5570px;
+        
+}
+.star10{
+    position: absolute;
+    left: 580px;
+    top: 5570px;
+        
+}
+.understar3{
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 500px;
+    top: 5630px;
+}
+.understar4{
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 500px;
+    top: 5710px;
+} 
+.star11{
+    position: absolute;
+    left: 940px;
+    top: 5570px;
+}
+.star12{
+    position: absolute;
+    left: 960px;
+    top: 5570px;
+}
+.star13{
+    position: absolute;
+    left: 980px;
+    top: 5570px;
+}
+.star14{
+    position: absolute;
+    left: 1000px;
+    top: 5570px;
+}
+.star15{
+    position: absolute;
+    left: 1020px;
+    top: 5570px;
+}
+.understar5{
+    position: absolute;
+    left: 940px;
+    top: 5630px;
+}
+.understar6{
+    position: absolute;
+    top: 5710px;
+    left: 940px;
+}
+
+
+/* ====================================== */
+/* ELEVENTH SECTION */
+/* ====================================== */
+
+.eleventh_section{
+    background-color:  #F6CFCA;
+    ;
+}
+.posForTextes12{
+    justify-content: center;
+    display: flex;
+    padding-top: 39px;
+    font-weight: 400;
+    font-size: 88px;
+    text-align: center;
+}
+.fifth_container{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 102px;
+}
+
+/* ====================================== */
+/* TWELFTH SECTION */
+/* ====================================== */
+
+.twelfth_section{
+    background-color: #FBF8F5;
+}
+.gul{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.posForTextes13{
+    display: flex;
+    justify-content: center;
+    padding-top: 41px;
+    font-weight: 400;
+    font-size: 24px;
+}
+.but3{
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+.ghilaki{
+    width: 202px;
+    height: 60px;
+    background-color: #E9672B;
+    border-radius: 88px;
+    font-size: 18px;
+    margin-bottom: 120px;
+}
+
+/* ====================================== */
+/* TWELFTH SECTION */
+/* ====================================== */
+
+.footer_section{
+    display: flex;
+    background-color: #F3F0EC;
+    justify-content: space-between;
+}
+.chamonatvali{
+    padding-top: 82px;
+    display: flex;
+    margin-left: 82px;
+    /* flex-direction: column; */
+}
+.shvili{
+    display: flex;
+    flex-direction: column;
+}
+.gavisrolot{
+    padding-bottom: 24px;
+}
+.shvili a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 8px;
+}
+.meore_shvili{
+    display: flex;
+    flex-direction: column;
+    padding-left: 82px;
+    margin-bottom: 50px;
+}
+.meore_shvili a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 8px;
+}
+.mesame_shvili{
+    display: flex;
+    flex-direction: column;
+    padding-left: 82px;
+}
+.mesame_shvili a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 8px;
+}
+.meotxe_shvili{
+    padding-left: 169px;
+    
+}
+.gavisrolot1{
+    padding-top: 25px;
+    font-size: 16px;
+}
+.gamyofi{
+    width: 298px;
+    height: 2px;
+    margin-top: 60px;
+}
